@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddha.teachingchildrenartificialintelligence.Statistics">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text=" In 2019, the worldwide content analytics, discovery, and cognitive systems, which represents part of the AI market will be estimated to be 9.2 Billion US dollars."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="AI is estimated to double economic growth rates in 12 developed countries and increase labor production by 40 percent."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Almost 90% of all business and IT executives plan on making large investments in one or many AI related technologies over the next three years"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="monospace"
+        android:text="Statistics"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

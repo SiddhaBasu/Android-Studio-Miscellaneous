@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="appMainScreenBackground">#2e2e2e</color>
+    <color name="appMainScreenButtons">#610e05</color>
+    <color name="appTwoPlayerScreenBoard">#ff000000</color>
+    <color name="appTwoPlayerScreenLines">#dc08ff00</color>
+</resources>

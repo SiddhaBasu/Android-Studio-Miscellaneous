@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.siddha.theoxygenorganizer.TitleScreen"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:id="@+id/oxyorg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="The Oxygen Organizer"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/dailysched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:fontFamily="cursive"
+        android:text="Edit Your Schedule"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="The Oxygen Organizer helps you organize and accomplish your daily tasks. With artificial intelligence rapidly progressing, machines will continue automating everything we do, making us unable to do simple tasks. The purpose of this application is to make people stray away from this laziness so that we are don't get &quot;controlled&quot; by artificial intelligence in every actizon."
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddha.teachingchildrenartificialintelligence.aiexamples">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:fontFamily="monospace"
+        android:text="Examples of Artificial Intelligence:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="325dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="The most prominent examples of Artificial Intelligence in our lives are personal assistants such as Siri, Alexa, and Google Home. They are constantly gaining knowledge about our behavior, actions, and the way we talk. They then use this information to enhance their capabilities. These personal assistants use Natural Language Processing to interpret slang words. Another example are the computer chess programs by Google's DeepMind. These programs literally play themselves over and over again to constantly get better at chess."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+</RelativeLayout>

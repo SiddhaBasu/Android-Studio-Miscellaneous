@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonColor">#8c2720</color>
+    <color name="pauseColor">#00ff19</color>
+    <color name="appMainScreenBackground">#273cb5</color>
+    <color name="titleColor">#730000</color>
+    <color name="textViewColor">#aeaeae</color>
+    <color name="yellowColor">#fffb2c</color>
+</resources>

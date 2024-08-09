@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    tools:context="com.example.siddha.ultiapp.MainActivity">
+
+    <!-- Comment -->
+
+    <Button
+        android:id="@+id/coordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@color/colorButton"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="25dp"
+        android:text="Get Coordinates"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="Inpulsa"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="72sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/latView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coordButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:fontFamily="serif-monospace"
+        android:text="Latitude:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/longView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/latView"
+        android:fontFamily="serif-monospace"
+        android:text="Longitude: "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+private void clear() {
+       /*final ArrayAdapter dateAdapter = new ArrayAdapter<>(this, R.layout.activity_calorie_count, dateArray);
+       final ArrayAdapter calorieAdapter = new ArrayAdapter<>(this, R.layout.activity_calorie_count, calorieArray);
+
+       ListView DateListView = (ListView) findViewById(R.id.dateList);
+       ListView CalListView = (ListView) findViewById(R.id.calorieList);
+
+       dateArray.clear();
+       calorieArray.clear();
+
+       CalListView.setAdapter(calorieAdapter);
+       DateListView.setAdapter(dateAdapter);
+
+       SharedPreferences sharedPrefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+       SharedPreferences.Editor editor = sharedPrefs.edit();
+
+       StringBuilder cStringBuilder = new StringBuilder();
+       for (String c : calorieArray) {
+           cStringBuilder.append(c);
+           cStringBuilder.append(",");
+       }
+
+       editor.putString("calories", cStringBuilder.toString());
+
+       editor.commit();
+
+       StringBuilder dStringBuilder = new StringBuilder();
+       for (String d : dateArray) {
+           dStringBuilder.append(d);
+           dStringBuilder.append(",");
+       }
+
+       editor.putString("dates", dStringBuilder.toString());
+
+       editor.commit();
+
+       CalListView.setAdapter(calorieAdapter);
+       DateListView.setAdapter(dateAdapter);
+       */
+   }

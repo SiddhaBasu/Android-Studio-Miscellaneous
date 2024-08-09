@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddha.teachingchildrenartificialintelligence.works">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="359dp"
+        android:layout_height="77dp"
+        android:fontFamily="monospace"
+        android:text="How does Artificial Intelligence Work?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="356dp"
+        android:layout_height="344dp"
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="2sp"
+        android:text="Artificial Intelligence has been such a mind-blowing discovery because of the way it's created. Instead of programming the answer to the robot, the path to get to the answer is programmed instead. This way, the program can possibly be smarter than its programmer because it doesn't make any mistakes while getting to the answer and is very efficient at it. In fact, this program shown in the next page shows a program in Python that literally mimics the neurons and synapses inside our brain and the process of them to 'think.'"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/btnhowbrainworks"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_dark"
+        android:text="How our Brain Works"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="445dp" />
+</RelativeLayout>
